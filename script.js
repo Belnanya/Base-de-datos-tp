@@ -65,3 +65,23 @@ function findMostAndLeastPlayedSounds() {
 const { mostPlayedSound, leastPlayedSound } = findMostAndLeastPlayedSounds();
 document.getElementById('most-played').textContent = mostPlayedSound;
 document.getElementById('least-played').textContent = leastPlayedSound;
+let currentAudio = null;
+
+soundButtons.forEach((button) => {
+    /*button.addEventListener('click', () => {
+        // Detener la reproducción del sonido actual, si existe        if (currentAudio) {
+            currentAudio.pause();
+        }
+        const soundFileName = button.getAttribute('data-sound');
+        currentAudio = new Audio(soundFileName);
+        currentAudio.play();
+
+        // Actualizar los detalles del sonido        const soundName = button.textContent;
+        document.getElementById('sound-name').textContent = soundName;
+        document.getElementById('sound-duration').textContent = soundInfo[soundName].duration;
+        document.getElementById('sound-type').textContent = soundInfo[soundName].type;
+        document.getElementById('sound-authors').textContent = soundInfo[soundName].authors.join(', ');
+        document.getElementById('sound-url').textContent = soundInfo[soundName].url;
+        document.getElementById('sound-url').href = soundInfo[soundName].url;
+    });*/
+});
