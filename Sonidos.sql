@@ -19,4 +19,3 @@ VALUES
 ('DON POLLO', '0:30', 'Audio cursed', 'Don Pollo', 'https://github.com/Belnanya/Base-de-datos-tp/blob/main/sounds/DonPollo.mp3'),
 ('the tornado', '0:08', 'Efecto de Sonido', 'Stan Twitter', 'https://github.com/Belnanya/Base-de-datos-tp/blob/main/sounds/mgtornadoisformingBYEEE.mp3'),
 ('watafak q le pasaba', '0:05', 'Momento cultural', 'Natalia Fernandez', 'https://github.com/Belnanya/Base-de-datos-tp/blob/main/sounds/watafakquelepasaba.mp3');
-
