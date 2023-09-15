@@ -61,7 +61,7 @@ function findMostAndLeastPlayedSounds() {
     };
 }
 
-// Mostrar el sonido más y menos elegido
+// Muestrar el sonido más y menos elegido
 const { mostPlayedSound, leastPlayedSound } = findMostAndLeastPlayedSounds();
 document.getElementById('most-played').textContent = mostPlayedSound;
 document.getElementById('least-played').textContent = leastPlayedSound;
